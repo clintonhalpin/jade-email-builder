@@ -4,13 +4,13 @@ Build HTML emails hella fast
 - Jade Templates
 - Auto CSS inlining
 
-# get started
+### get started
 
 ```
 npm i
 gulp email
 
-# Dev workflow
+### Dev workflow
 
 gulp watch
 # [ edit files ]
@@ -18,8 +18,7 @@ gulp watch
 
 ```
 
-# TODO
-
-- [] w/ Current gulp setup, you have to restart gulp to pull in new constants which isn't great
+### Todo 
+- [ ] w/ Current gulp setup, you have to restart gulp to pull in new constants which isn't great
 
 built by [http://twitter.com/clintonhalpin](@clintonhalpin)
