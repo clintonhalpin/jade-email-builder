@@ -18,4 +18,8 @@ gulp watch
 
 ```
 
+# TODO
+
+- [] w/ Current gulp setup, you have to restart gulp to pull in new constants which isn't great
+
 built by [http://twitter.com/clintonhalpin](@clintonhalpin)
