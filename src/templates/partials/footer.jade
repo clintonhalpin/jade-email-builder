@@ -1,0 +1,26 @@
+table.container
+	tr
+		td.padding.tc
+			p.text--light 
+				small © 2015 !{ companyName } 999 Internet Land Road This email was sent to 
+					a(href='mailto:' companySupportEmail )
+						strong !{companySupportEmail}
+					| . Please add us to your address book to ensure you continue receiving !{companyName} emails.
+
+table.container
+	tr
+		td.tc.truncate.padding-x
+			p
+				small 
+					a(href= companySupportURL + '/policies')
+						strong Jade Email Builder Policies
+		td.tc.truncate.padding-x
+			p 
+				small 
+					a(href= companySupportURL + '/terms-and-privacy')
+						strong Terms &amp; Privacy
+		td.tc.truncate.padding-x
+			p 
+				small 
+					a(href= 'mailto:' + companySupportEmail )
+						strong Contact Us

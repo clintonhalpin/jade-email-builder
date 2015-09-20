@@ -1,0 +1,15 @@
+extends ./partials/header.jade
+
+block title
+    title Welcome to Jade Email Builder
+
+block content
+    tr
+        td
+            table.main.padding-y.bg--white.border
+                tr
+                    td.padding
+                        h3 Hi, 
+                        p Congratulations on downloading jade email builder! Lets build some killer emails!
+
+                    include ./partials/signature.jade

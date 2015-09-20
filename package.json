@@ -1,0 +1,27 @@
+{
+  "name": "jade-email-templates",
+  "version": "0.1.0",
+  "description": "Build emails with jade",
+  "main": "index.js",
+  "author": "clintonhalpin@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "beepbeep": "^1.2.0",
+    "chalk": "^1.0.0",
+    "cheerio": "^0.18.0",
+    "gulp": "^3.9",
+    "gulp-jade": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-util": "^3.0.5",
+    "inline-css": "^1.0.4",
+    "jade": "^1.9.2",
+    "juice": "^1.0.0",
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "gulp-data": "^1.2.0",
+    "gulp-inline-css": "^2.0.0",
+    "gulp-replace": "^0.5.3",
+    "run-sequence": "^1.0.2"
+  }
+}
