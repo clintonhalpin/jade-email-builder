@@ -1,15 +1,29 @@
 extends ./partials/header.jade
 
 block title
-    title Welcome to Jade Email Builder
+title Welcome to Jade Email Builder
 
 block content
-    tr
-        td
-            table.main.padding-y.bg--white.border
-                tr
-                    td.padding
-                        h3 Hi, 
-                        p Congratulations on downloading jade email builder! Lets build some killer emails!
-
-                    include ./partials/signature.jade
+	tr
+		td
+			table.main.padding-y.bg--white.border
+				tr
+					td.padding
+						h1 Jade Email Builder 
+						p Build HTML Emails hella fast with Jade and Automatically Inlined CSS styles!
+						<hr />
+				tr
+					td
+						h3 # Default Styles
+						h1  h1 - 42px
+						h2  h2 - 28px
+						h3  h3 - 26px
+						h4  h4 - 18px
+						h5  h5 - 16px
+						h6  h6 - 14px
+						p  p - 16px
+						p small  p small - 12px
+						<hr />
+				tr
+					td
+						include ./partials/signature.jade

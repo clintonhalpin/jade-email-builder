@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "clintonhalpin@gmail.com",
   "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "dist": "gulp dist"
+  },
   "dependencies": {
     "beepbeep": "^1.2.0",
     "chalk": "^1.0.0",
