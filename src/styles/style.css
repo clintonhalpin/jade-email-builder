@@ -6,57 +6,64 @@ body {
 	font-size: 100%;
 }
 
+hr {
+	border: 0;
+	height: 1px;
+	background: #eee;
+	margin: 1rem 0;
+}
+
 a {
-	text-decoration: none;
 	color: #2095F0;
+	text-decoration: none;
 }
 
 h1 { 
-	font-size: 42px; 
-	margin: 21px 0;  
-	line-height: 1; 
+	font-size: 3rem; 
+	margin: .75rem 0;  
+	line-height: 1.5; 
 }
 
 h2 { 
-	font-size: 28px;
-	margin: 14px 0;
-	line-height: 1; 
+	font-size: 2.5rem;
+	margin: .625rem 0;
+	line-height: 1.5; 
 }
 
 h3 { 
-	font-size: 26px;
-	margin: 13px 0;
-	line-height: 1; 
+	font-size: 2rem;
+	margin: .5rem 0;
+	line-height: 1.5; 
 }
 
 h4 { 
-	font-size: 18px;
-	margin: 9px 0;
-	line-height: 1 ; 
+	font-size: 1.5rem;
+	margin: .375rem 0;
+	line-height: 1.5; 
 }
 
 h5 { 
-	font-size: 16px;
-	margin: 8px 0;
-	line-height: 1; 
+	font-size: 1rem;
+	margin: .25rem 0;
+	line-height: 1.5; 
 }
 
 h6 { 
 	font-size: 14px;
-	margin: 6px 0;
+	margin: 0.21875rem 0;
 	line-height: 1.5;
-	font-weight: normal; 
 }
 
 p { 
-	font-size: 16px;
-	margin: 5px 0;
-	line-height: 1.5 
+	font-size: 1rem;
+	margin: .25rem 0;
+	line-height: 1.5;
 }
 
 p small { 
-	font-size: 12px;
- 	margin: 6px 0; 
+	font-size: .75rem;
+	margin: .25rem 0;
+	line-height: 1.5;
 }
 
 .container {
@@ -87,6 +94,15 @@ p small {
 	text-align: left;
 }
 
+.fw--reg {
+	font-weight: 500;
+}
+
+.caps {
+	text-transform: uppercase;
+	letter-spacing: .25em;
+}
+
 .p1 {
 	padding: 1rem;
 }
@@ -101,4 +117,12 @@ p small {
 
 .p4 {
 	padding: 4rem;
+}
+
+.text--brand {
+	color: #2095F0;
+}
+
+.bg--brand {
+	color: #2095F0;
 }
