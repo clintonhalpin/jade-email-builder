@@ -10,7 +10,13 @@ block content
 				tr
 					td.padding
 						h1.fw--reg.text--brand Jade Email Builder 
-						p Build HTML Emails hella fast with Jade and Automatically Inlined CSS styles!
+						p Build 100% responsive and email-client compatible HTML emails hella fast! Using Jade and Automatically Inlined CSS.
+						<hr />
+						h5.caps Why Jade? 
+						p Jade helps with cleaning up hard to maintain HTML Table Layouts. Add's support for partials and constants to store commonly changed things like URLs, Analytics Tracking Codes, and support emails!
+						<hr />
+						h5.caps Why Inline CSS? 
+						p For HTML email, inline-css isn't trendy, its a best practice to ensure your emails render properly. Working with inline-css from the start speeds up testing.
 						<hr />
 				tr
 					td
@@ -24,6 +30,4 @@ block content
 						p  body
 						p <small> body small
 						<hr />
-				tr
-					td
-						include ./partials/signature.jade
+				include ./partials/signature.jade

@@ -1,9 +1,17 @@
 body {
     background: #F6F6F6;
-    color: #0E1214;
+    color: #222;
     margin: 0;
 	font-family: "SF UI Text", "Helvetica Neue", Helvetica, Arial, san-serif;
 	font-size: 100%;
+}
+
+.container {
+	background: white;
+	max-width: 48rem;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
 }
 
 hr {
@@ -66,14 +74,6 @@ p small {
 	line-height: 1.5;
 }
 
-.container {
-	background: white;
-	max-width: 600px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 10px;
-}
-
 .mw--100 {
 	max-width: 100%;
 }
@@ -125,4 +125,8 @@ p small {
 
 .bg--brand {
 	color: #2095F0;
+}
+
+.bg--transparent {
+	background: transparent;
 }

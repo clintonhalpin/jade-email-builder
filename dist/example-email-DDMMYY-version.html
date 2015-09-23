@@ -5,10 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>body {
     background: #F6F6F6;
-    color: #0E1214;
+    color: #222;
     margin: 0;
 	font-family: "SF UI Text", "Helvetica Neue", Helvetica, Arial, san-serif;
 	font-size: 100%;
+}
+
+.container {
+	background: white;
+	max-width: 48rem;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
 }
 
 hr {
@@ -71,14 +79,6 @@ p small {
 	line-height: 1.5;
 }
 
-.container {
-	background: white;
-	max-width: 600px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 10px;
-}
-
 .mw--100 {
 	max-width: 100%;
 }
@@ -131,17 +131,25 @@ p small {
 .bg--brand {
 	color: #2095F0;
 }
+
+.bg--transparent {
+	background: transparent;
+}
   </style>
 </head>
-<body style="background: #F6F6F6; color: #0E1214; font-family: 'SF UI Text', 'Helvetica Neue', Helvetica, Arial, san-serif; font-size: 100%; margin: 0;">
-  <table align="center" class="main container" style="background: white; margin: 0 auto; max-width: 600px; padding: 0 10px; width: 100%;">
+<body style="background: #F6F6F6; color: #222; font-family: 'SF UI Text', 'Helvetica Neue', Helvetica, Arial, san-serif; font-size: 100%; margin: 0;">
+  <table align="center" class="main container" style="background: white; margin: 0 auto; max-width: 48rem; padding: 0 10px; width: 100%;">
     <tr>
       <td>
         <table class="p1 bg--white border" style="padding: 1rem;">
           <tr>
             <td class="padding">
               <h1 class="fw--reg text--brand" style="color: #2095F0; font-size: 3rem; font-weight: 500; line-height: 1.5; margin: .75rem 0;">Jade Email Builder </h1>
-              <p style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;">Build HTML Emails hella fast with Jade and Automatically Inlined CSS styles!</p><hr style="background: #eee; border: 0; height: 1px; margin: 1rem 0;">
+              <p style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;">Build 100% responsive and email-client compatible HTML emails hella fast! Using Jade and Automatically Inlined CSS.</p><hr style="background: #eee; border: 0; height: 1px; margin: 1rem 0;">
+              <h5 class="caps" style="font-size: 1rem; letter-spacing: .25em; line-height: 1.5; margin: .25rem 0; text-transform: uppercase;">Why Jade? </h5>
+              <p style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;">Jade helps with cleaning up hard to maintain HTML Table Layouts. Add's support for partials and constants to store commonly changed things like URLs, Analytics Tracking Codes, and support emails!</p><hr style="background: #eee; border: 0; height: 1px; margin: 1rem 0;">
+              <h5 class="caps" style="font-size: 1rem; letter-spacing: .25em; line-height: 1.5; margin: .25rem 0; text-transform: uppercase;">Why Inline CSS? </h5>
+              <p style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;">For HTML email, inline-css isn't trendy, its a best practice to ensure your emails render properly. Working with inline-css from the start speeds up testing.</p><hr style="background: #eee; border: 0; height: 1px; margin: 1rem 0;">
             </td>
           </tr>
           <tr>
@@ -159,25 +167,21 @@ p small {
           </tr>
           <tr>
             <td>
-              </td></tr><tr>
-                <td class="padding">
-                  <p style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;">Thank You, </p>
-                  <p style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;">Jade Email Builder</p>
-                </td>
-              </tr>
-            </table></td>
+              <p style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;">Thank You, </p>
+              <p style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;">Jade Email Builder</p>
+            </td>
           </tr>
         </table>
-      
-    
-    <table class="container" style="background: white; margin: 0 auto; max-width: 600px; padding: 0 10px; width: 100%;">
+      </td>
+    </tr>
+    <table class="container" style="background: white; margin: 0 auto; max-width: 48rem; padding: 0 10px; width: 100%;">
       <tr>
-        <td class="p1 text--center" style="padding: 1rem; text-align: center;"><hr style="background: #eee; border: 0; height: 1px; margin: 1rem 0;">
+        <td class="p1" style="padding: 1rem;"><hr style="background: #eee; border: 0; height: 1px; margin: 1rem 0;">
           <p class="text--light" style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;"> <small style="font-size: .75rem; line-height: 1.5; margin: .25rem 0;">© 2015 Jade Email Builder This email was sent to <a href="mailto:" companysupportemail="" style="color: #2095F0; text-decoration: none;"><strong>clientemail@test.com</strong></a>. Please add us to your address book to ensure you continue receiving Jade Email Builder emails.</small></p>
         </td>
       </tr>
     </table>
-    <table class="container table--fixed" style="background: white; margin: 0 auto; max-width: 600px; padding: 0 10px; table-layout: fixed; width: 100%;">
+    <table class="container bg--transparent table--fixed" style="background: transparent; margin: 0 auto; max-width: 48rem; padding: 0 10px; table-layout: fixed; width: 100%;">
       <tr>
         <td class="text--center" style="text-align: center;">
           <p style="font-size: 1rem; line-height: 1.5; margin: .25rem 0;"><small style="font-size: .75rem; line-height: 1.5; margin: .25rem 0;"> <a href="jade-email-builder.tester.com/policies" style="color: #2095F0; text-decoration: none;"><strong>Policies</strong></a></small></p>
@@ -190,5 +194,5 @@ p small {
         </td>
       </tr>
     </table>
-  
+  </table>
 </body>
